@@ -35,3 +35,14 @@ def first_m_primes(m):
       (count,pl)=(count+1,pl+[i])
       i=i+1
 return pl
+
+
+#Computing Primes- Sufficient to check factors up to √ n
+import math
+def prime(n):
+	(result,i) = (True,2)
+	while (result and (i <= math.sqrt(n))):
+		if (n%i) == 0:
+			result = False
+		i = i+1
+	return(result)
