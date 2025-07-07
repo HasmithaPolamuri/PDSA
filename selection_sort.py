@@ -4,7 +4,7 @@ Swap it with the first element of the unsorted part.
 Move the boundary of sorted/unsorted part one step forward.
 Repeat until the list is sorted.
 
-Best Case - O(n)
+Best Case - O(n²)
 Average Case - O(n²)
 Worst Case - O(n²)
 
