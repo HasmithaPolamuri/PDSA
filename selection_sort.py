@@ -8,7 +8,7 @@ Best Case - O(n²)
 Average Case - O(n²)
 Worst Case - O(n²)
 
-Stable - Yes
+Stable - No
 Sort in Place - Yes
 '''
 
